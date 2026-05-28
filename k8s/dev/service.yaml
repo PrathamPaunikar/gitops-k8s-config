@@ -1,0 +1,12 @@
+# k8s/dev/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: gitops-app
+  namespace: dev
+spec:
+  selector:
+    app: gitops-app
+  ports:
+  - port: 80
+    targetPort: 8080
