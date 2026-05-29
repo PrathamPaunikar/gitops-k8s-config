@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: PLACEHOLDER
+        image: 906401006480.dkr.ecr.ap-south-2.amazonaws.com/gitops-app:c6cbd01cb4ba612787dd858f75371c53e404c36f
         ports:
         - containerPort: 8080
         resources:
