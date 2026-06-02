@@ -18,7 +18,7 @@ spec:
       - name: ecr-secret
       containers:
       - name: app
-        image: 906401006480.dkr.ecr.ap-south-2.amazonaws.com/gitops-app:66b4ff88599c6e548f087108a27976779b4f61bf
+        image: 906401006480.dkr.ecr.ap-south-2.amazonaws.com/gitops-app:aa567fa2cc00029007c7617a4ece276207e99817
         ports:
         - containerPort: 8080
         resources:
